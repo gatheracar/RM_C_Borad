@@ -94,6 +94,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_buzzer.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_led.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/gpio.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -106,7 +112,13 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/stm32f4xx_it.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/struct_typedef.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/tim.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c">
@@ -305,12 +317,6 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/STM32F407IGHx_FLASH.ld">
-			<Option target="C_board_study.elf"/>
-		</Unit>
-		<Unit filename="D:/RM_Clion_project/C_board_study/bsp/board/bsp_led.h">
-			<Option target="C_board_study.elf"/>
-		</Unit>
-		<Unit filename="D:/RM_Clion_project/C_board_study/bsp/board/struct_typedef.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/startup/startup_stm32f407xx.s">

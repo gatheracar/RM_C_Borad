@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="elmot.OpenOcdPlugin">
+    <option name="openOcdHome" value="f:/openocd-20200729/OpenOCD-20200729-0.10.0" />
+  </component>
 </project>
