@@ -24,6 +24,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/gpio.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/main.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj"

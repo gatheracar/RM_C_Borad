@@ -2,7 +2,7 @@
 #define BSP_LED_H
 #include "struct_typedef.h"
 
-extern void aRGB_led_show(uint32_t aRGB);
-
+extern void aRGB_led_show(uint_t aRGB);
+extern void RGB_led_flow(void);
 
 #endif

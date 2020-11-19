@@ -3,8 +3,45 @@
 
 CMakeFiles/C_board_study.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
 
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Core/Inc/bsp_buzzer.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Core/Inc/main.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Core/Inc/struct_typedef.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj: ../Core/Src/bsp_buzzer.c
+
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Core/Inc/bsp_led.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Core/Inc/main.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Core/Inc/struct_typedef.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Core/Inc/tim.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
@@ -36,8 +73,6 @@ CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Drivers/STM32F4xx_HA
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../Core/Src/bsp_led.c
-CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../bsp/board/bsp_led.h
-CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj: ../bsp/board/struct_typedef.h
 
 CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj: ../Core/Inc/main.h
@@ -73,9 +108,12 @@ CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_D
 CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
+CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/bsp_buzzer.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/bsp_led.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/struct_typedef.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Core/Inc/tim.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h

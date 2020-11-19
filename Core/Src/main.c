@@ -24,7 +24,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "bsp_buzzer.h"
+#include "bsp_led.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,6 +96,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+      buzzer_kc();
+      aRGB_led_show(0xFF112233);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
