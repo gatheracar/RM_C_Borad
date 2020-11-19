@@ -1,0 +1,3 @@
+D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir
+D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
