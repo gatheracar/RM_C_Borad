@@ -19,20 +19,22 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "tim.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "bsp_buzzer.h"
-#include "bsp_led.h"
 #include "bsp_servo.h"
 #include "bsp_key.h"
+#include "adc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+fp32 voltage;
+fp32 temperature;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -90,17 +92,21 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   TIM_Init();
+
   /* USER CODE BEGIN 2 */
-  LED_Init();
+  ADC_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-      key_light();
-//      buzzer_kc();
+      voltage = get_battery_voltage();
+      temperature = get_temprate();
+      if (voltage > 10){
+          servo_sweep();
+      }
+      HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

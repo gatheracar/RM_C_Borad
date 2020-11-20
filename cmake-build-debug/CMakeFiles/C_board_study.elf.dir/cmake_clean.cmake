@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/C_board_study.elf.dir/Core/Src/adc.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj"
@@ -11,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_board_study.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/tim.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+  "CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"

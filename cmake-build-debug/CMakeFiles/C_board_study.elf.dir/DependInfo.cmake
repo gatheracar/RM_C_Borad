@@ -24,6 +24,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/RM_Clion_project/C_board_study/Core/Src/adc.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/adc.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_key.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj"
@@ -36,6 +37,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Core/Src/system_stm32f4xx.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/tim.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/tim.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+  "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"

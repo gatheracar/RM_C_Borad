@@ -94,6 +94,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/adc.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_buzzer.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/tim.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/adc.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.c">
@@ -235,6 +241,12 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -284,6 +296,12 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">

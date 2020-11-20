@@ -3,6 +3,7 @@
 
 #include "main.h"
 #include "tim.h"
+#include "struct_typedef.h"
 
 extern void key_light(void);
 extern void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);

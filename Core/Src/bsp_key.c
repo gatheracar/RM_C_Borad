@@ -13,9 +13,10 @@ void key_light(){
             //debouce
             //消抖
             HAL_Delay(20);
-            if(HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_Pin) == GPIO_PIN_RESET)
+            if(HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_Pin) == GPIO_PIN_RESET)//this can replace your code
             {
                 HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
+                //this can replace your code
                 exit_flag = 0;
             }
             else
@@ -23,14 +24,15 @@ void key_light(){
                 exit_flag = 0;
             }
         }
-        else if(rising_falling_flag == GPIO_PIN_SET)
+        else if(rising_falling_flag == GPIO_PIN_SET)//this can replace your code
         {
             //debouce
             //消抖
             HAL_Delay(20);
-            if(HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_Pin) == GPIO_PIN_SET)
+            if(HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_Pin) == GPIO_PIN_SET)//this can replace your code
             {
                 HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_RESET);
+                //this can replace your code
                 exit_flag = 0;
             }
             else

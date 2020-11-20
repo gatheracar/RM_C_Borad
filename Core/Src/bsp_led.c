@@ -4,7 +4,7 @@ extern TIM_HandleTypeDef htim5;
 
 #define RGB_FLOW_COLOR_CHANGE_TIME  500
 #define RGB_FLOW_COLOR_LENGHT   3
-uint32_t RGB_flow_color[RGB_FLOW_COLOR_LENGHT + 1] = {0xFF0000FF, 0xFF00FF00, 0xFFFF0000, 0xFF0000FF};
+uint_t RGB_flow_color[RGB_FLOW_COLOR_LENGHT + 1] = {0xFF0000FF, 0xFF00FF00, 0xFFFF0000, 0xFF0000FF};
 
 void aRGB_led_show(uint_t aRGB)
 {

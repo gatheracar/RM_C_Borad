@@ -6,27 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../Core/Inc/bsp_buzzer.h
+../Core/Inc/adc.h
+main.h
+../Core/Inc/main.h
 struct_typedef.h
 ../Core/Inc/struct_typedef.h
-
-../Core/Inc/bsp_key.h
-main.h
-../Core/Inc/main.h
-tim.h
-../Core/Inc/tim.h
-
-../Core/Inc/bsp_led.h
-struct_typedef.h
-../Core/Inc/struct_typedef.h
-
-../Core/Inc/bsp_servo.h
-main.h
-../Core/Inc/main.h
-
-../Core/Inc/gpio.h
-main.h
-../Core/Inc/main.h
 
 ../Core/Inc/main.h
 stm32f4xx_hal.h
@@ -131,10 +115,6 @@ stm32f4xx_hal_mmc.h
 ../Core/Inc/stm32f4xx_hal_mmc.h
 
 ../Core/Inc/struct_typedef.h
-
-../Core/Inc/tim.h
-main.h
-../Core/Inc/main.h
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 core_cm4.h
@@ -246,6 +226,16 @@ mpu_armv7.h
 stm32f4xx_hal_conf.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_conf.h
 
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+stm32f4xx_hal_adc_ex.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
@@ -328,19 +318,7 @@ stm32f4xx_hal_tim_ex.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 
-D:/RM_Clion_project/C_board_study/Core/Src/main.c
-main.h
-D:/RM_Clion_project/C_board_study/Core/Src/main.h
-tim.h
-D:/RM_Clion_project/C_board_study/Core/Src/tim.h
-gpio.h
-D:/RM_Clion_project/C_board_study/Core/Src/gpio.h
-bsp_buzzer.h
-D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.h
-bsp_led.h
-D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.h
-bsp_servo.h
-D:/RM_Clion_project/C_board_study/Core/Src/bsp_servo.h
-bsp_key.h
-D:/RM_Clion_project/C_board_study/Core/Src/bsp_key.h
+D:/RM_Clion_project/C_board_study/Core/Src/adc.c
+adc.h
+D:/RM_Clion_project/C_board_study/Core/Src/adc.h
 
