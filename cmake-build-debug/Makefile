@@ -196,6 +196,33 @@ Core/Src/bsp_led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.s
 .PHONY : Core/Src/bsp_led.c.s
 
+Core/Src/bsp_servo.obj: Core/Src/bsp_servo.c.obj
+
+.PHONY : Core/Src/bsp_servo.obj
+
+# target to build an object file
+Core/Src/bsp_servo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.obj
+.PHONY : Core/Src/bsp_servo.c.obj
+
+Core/Src/bsp_servo.i: Core/Src/bsp_servo.c.i
+
+.PHONY : Core/Src/bsp_servo.i
+
+# target to preprocess a source file
+Core/Src/bsp_servo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.i
+.PHONY : Core/Src/bsp_servo.c.i
+
+Core/Src/bsp_servo.s: Core/Src/bsp_servo.c.s
+
+.PHONY : Core/Src/bsp_servo.s
+
+# target to generate assembly for a file
+Core/Src/bsp_servo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.s
+.PHONY : Core/Src/bsp_servo.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 
 .PHONY : Core/Src/gpio.obj
@@ -814,6 +841,9 @@ help:
 	@echo ... Core/Src/bsp_led.obj
 	@echo ... Core/Src/bsp_led.i
 	@echo ... Core/Src/bsp_led.s
+	@echo ... Core/Src/bsp_servo.obj
+	@echo ... Core/Src/bsp_servo.i
+	@echo ... Core/Src/bsp_servo.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

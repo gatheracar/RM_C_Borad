@@ -1,6 +1,6 @@
 #include "bsp_led.h"
-#include "tim.h"
 #include "main.h"
+extern TIM_HandleTypeDef htim5;
 
 #define RGB_FLOW_COLOR_CHANGE_TIME  500
 #define RGB_FLOW_COLOR_LENGHT   3

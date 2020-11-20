@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj"
+  "CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/C_board_study.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"

@@ -26,6 +26,7 @@
 /* USER CODE BEGIN Includes */
 #include "bsp_buzzer.h"
 #include "bsp_led.h"
+#include "bsp_servo.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -97,8 +98,12 @@ int main(void)
   while (1)
   {
 
-      buzzer_kc();
-      aRGB_led_show(0xFF112233);
+//      servo_sweep();
+//      buzzer_kc();
+//        HAL_GPIO_WritePin(LED_G_GPIO_Port,LED_G_Pin,GPIO_PIN_RESET);
+//        HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_RESET);
+//        HAL_GPIO_WritePin(LED_B_GPIO_Port,LED_B_Pin,GPIO_PIN_RESET);
+       aRGB_led_show(0xFFFFFF00);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -100,6 +100,9 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_led.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_servo.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/gpio.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_servo.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/gpio.c">
