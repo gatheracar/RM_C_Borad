@@ -4,5 +4,6 @@
 
 extern void aRGB_led_show(uint_t aRGB);
 extern void RGB_led_flow(void);
+extern void LED_Init(void);
 
 #endif

@@ -97,6 +97,9 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_buzzer.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_key.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_led.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_key.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c">

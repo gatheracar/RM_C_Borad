@@ -27,6 +27,7 @@
 #include "bsp_buzzer.h"
 #include "bsp_led.h"
 #include "bsp_servo.h"
+#include "bsp_key.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,7 +91,7 @@ int main(void)
   MX_GPIO_Init();
   TIM_Init();
   /* USER CODE BEGIN 2 */
-
+  LED_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -98,12 +99,8 @@ int main(void)
   while (1)
   {
 
-//      servo_sweep();
+      key_light();
 //      buzzer_kc();
-//        HAL_GPIO_WritePin(LED_G_GPIO_Port,LED_G_Pin,GPIO_PIN_RESET);
-//        HAL_GPIO_WritePin(LED_R_GPIO_Port,LED_R_Pin,GPIO_PIN_RESET);
-//        HAL_GPIO_WritePin(LED_B_GPIO_Port,LED_B_Pin,GPIO_PIN_RESET);
-       aRGB_led_show(0xFFFFFF00);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -155,6 +152,12 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+//Key,LED,buzzer,servo
+void function(){
+    buzzer_kc();
+    key_light();
+    servo_sweep();
+}
 
 /* USER CODE END 4 */
 

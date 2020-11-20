@@ -10,6 +10,12 @@
 struct_typedef.h
 ../Core/Inc/struct_typedef.h
 
+../Core/Inc/bsp_key.h
+main.h
+../Core/Inc/main.h
+tim.h
+../Core/Inc/tim.h
+
 ../Core/Inc/bsp_led.h
 struct_typedef.h
 ../Core/Inc/struct_typedef.h
@@ -335,4 +341,6 @@ bsp_led.h
 D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.h
 bsp_servo.h
 D:/RM_Clion_project/C_board_study/Core/Src/bsp_servo.h
+bsp_key.h
+D:/RM_Clion_project/C_board_study/Core/Src/bsp_key.h
 

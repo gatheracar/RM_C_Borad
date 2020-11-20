@@ -25,6 +25,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_buzzer.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.obj"
+  "D:/RM_Clion_project/C_board_study/Core/Src/bsp_key.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_servo.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/gpio.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj"

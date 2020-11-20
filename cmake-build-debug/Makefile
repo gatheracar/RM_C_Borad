@@ -169,6 +169,33 @@ Core/Src/bsp_buzzer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_buzzer.c.s
 .PHONY : Core/Src/bsp_buzzer.c.s
 
+Core/Src/bsp_key.obj: Core/Src/bsp_key.c.obj
+
+.PHONY : Core/Src/bsp_key.obj
+
+# target to build an object file
+Core/Src/bsp_key.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.obj
+.PHONY : Core/Src/bsp_key.c.obj
+
+Core/Src/bsp_key.i: Core/Src/bsp_key.c.i
+
+.PHONY : Core/Src/bsp_key.i
+
+# target to preprocess a source file
+Core/Src/bsp_key.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.i
+.PHONY : Core/Src/bsp_key.c.i
+
+Core/Src/bsp_key.s: Core/Src/bsp_key.c.s
+
+.PHONY : Core/Src/bsp_key.s
+
+# target to generate assembly for a file
+Core/Src/bsp_key.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.s
+.PHONY : Core/Src/bsp_key.c.s
+
 Core/Src/bsp_led.obj: Core/Src/bsp_led.c.obj
 
 .PHONY : Core/Src/bsp_led.obj
@@ -838,6 +865,9 @@ help:
 	@echo ... Core/Src/bsp_buzzer.obj
 	@echo ... Core/Src/bsp_buzzer.i
 	@echo ... Core/Src/bsp_buzzer.s
+	@echo ... Core/Src/bsp_key.obj
+	@echo ... Core/Src/bsp_key.i
+	@echo ... Core/Src/bsp_key.s
 	@echo ... Core/Src/bsp_led.obj
 	@echo ... Core/Src/bsp_led.i
 	@echo ... Core/Src/bsp_led.s
