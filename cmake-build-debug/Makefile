@@ -277,6 +277,33 @@ Core/Src/bsp_servo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.s
 .PHONY : Core/Src/bsp_servo.c.s
 
+Core/Src/dma.obj: Core/Src/dma.c.obj
+
+.PHONY : Core/Src/dma.obj
+
+# target to build an object file
+Core/Src/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.c.obj
+
+Core/Src/dma.i: Core/Src/dma.c.i
+
+.PHONY : Core/Src/dma.i
+
+# target to preprocess a source file
+Core/Src/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/dma.c.i
+.PHONY : Core/Src/dma.c.i
+
+Core/Src/dma.s: Core/Src/dma.c.s
+
+.PHONY : Core/Src/dma.s
+
+# target to generate assembly for a file
+Core/Src/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Core/Src/dma.c.s
+.PHONY : Core/Src/dma.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 
 .PHONY : Core/Src/gpio.obj
@@ -979,6 +1006,33 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+remote_control/bsp_rc.obj: remote_control/bsp_rc.c.obj
+
+.PHONY : remote_control/bsp_rc.obj
+
+# target to build an object file
+remote_control/bsp_rc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/remote_control/bsp_rc.c.obj
+.PHONY : remote_control/bsp_rc.c.obj
+
+remote_control/bsp_rc.i: remote_control/bsp_rc.c.i
+
+.PHONY : remote_control/bsp_rc.i
+
+# target to preprocess a source file
+remote_control/bsp_rc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/remote_control/bsp_rc.c.i
+.PHONY : remote_control/bsp_rc.c.i
+
+remote_control/bsp_rc.s: remote_control/bsp_rc.c.s
+
+.PHONY : remote_control/bsp_rc.s
+
+# target to generate assembly for a file
+remote_control/bsp_rc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_board_study.elf.dir\build.make CMakeFiles/C_board_study.elf.dir/remote_control/bsp_rc.c.s
+.PHONY : remote_control/bsp_rc.c.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -1012,6 +1066,9 @@ help:
 	@echo ... Core/Src/bsp_servo.obj
 	@echo ... Core/Src/bsp_servo.i
 	@echo ... Core/Src/bsp_servo.s
+	@echo ... Core/Src/dma.obj
+	@echo ... Core/Src/dma.i
+	@echo ... Core/Src/dma.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -1090,6 +1147,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... remote_control/bsp_rc.obj
+	@echo ... remote_control/bsp_rc.i
+	@echo ... remote_control/bsp_rc.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 

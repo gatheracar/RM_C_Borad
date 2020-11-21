@@ -20,6 +20,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "adc.h"
+#include "dma.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -29,7 +30,8 @@
 #include "bsp_buzzer.h"
 #include "bsp_servo.h"
 #include "bsp_key.h"
-#include "adc.h"
+#include "bsp_rc.h"
+#include "remote_control.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,12 +92,15 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
 
   /* USER CODE BEGIN 2 */
   ADC_Init();
   TIM_Init();
-  LED_Init();
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  ADC_Init();
+  USART_Init();
+  remote_control_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */

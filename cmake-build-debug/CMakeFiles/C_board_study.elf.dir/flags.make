@@ -7,11 +7,11 @@ ASM_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -
 
 ASM_DEFINES = -DSTM32F407xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\RM_Clion_project\C_board_study\Core\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Include 
+ASM_INCLUDES = -ID:\RM_Clion_project\C_board_study\Core\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Include -ID:\RM_Clion_project\C_board_study\remote_control 
 
 C_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DSTM32F407xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\RM_Clion_project\C_board_study\Core\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Include 
+C_INCLUDES = -ID:\RM_Clion_project\C_board_study\Core\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\RM_Clion_project\C_board_study\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\RM_Clion_project\C_board_study\Drivers\CMSIS\Include -ID:\RM_Clion_project\C_board_study\remote_control 
 

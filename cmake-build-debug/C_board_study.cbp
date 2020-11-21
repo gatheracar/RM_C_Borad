@@ -41,6 +41,7 @@
 					<Add directory="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/RM_Clion_project/C_board_study/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/RM_Clion_project/C_board_study/Drivers/CMSIS/Include"/>
+					<Add directory="D:/RM_Clion_project/C_board_study/remote_control"/>
 					<Add directory="f:\7 2017-q4-major\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="f:\7 2017-q4-major\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="f:\7 2017-q4-major\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -69,6 +70,7 @@
 					<Add directory="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/RM_Clion_project/C_board_study/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/RM_Clion_project/C_board_study/Drivers/CMSIS/Include"/>
+					<Add directory="D:/RM_Clion_project/C_board_study/remote_control"/>
 					<Add directory="f:\7 2017-q4-major\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
 					<Add directory="f:\7 2017-q4-major\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
 					<Add directory="f:\7 2017-q4-major\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
@@ -109,6 +111,9 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/bsp_servo.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/dma.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/gpio.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -143,6 +148,9 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/bsp_servo.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/dma.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/gpio.c">
@@ -359,6 +367,12 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/STM32F407IGHx_FLASH.ld">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/remote_control/bsp_rc.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/remote_control/bsp_rc.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/startup/startup_stm32f407xx.s">

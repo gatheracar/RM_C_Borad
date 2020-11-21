@@ -22,6 +22,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  "../remote_control"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Core/Src/adc.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/adc.c.obj"
@@ -29,6 +30,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_key.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_key.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_led.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_led.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/bsp_servo.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/bsp_servo.c.obj"
+  "D:/RM_Clion_project/C_board_study/Core/Src/dma.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/dma.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/gpio.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/gpio.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/main.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/main.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/stm32f4xx_hal_msp.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
@@ -55,6 +57,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+  "D:/RM_Clion_project/C_board_study/remote_control/bsp_rc.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/remote_control/bsp_rc.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -71,6 +74,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  "../remote_control"
   )
 
 # Targets to which this target links.
