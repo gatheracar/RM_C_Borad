@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Core/Src/syscalls.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/syscalls.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/system_stm32f4xx.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "D:/RM_Clion_project/C_board_study/Core/Src/tim.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/tim.c.obj"
+  "D:/RM_Clion_project/C_board_study/Core/Src/usart.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Core/Src/usart.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
@@ -53,6 +54,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+  "D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "D:/RM_Clion_project/C_board_study/cmake-build-debug/CMakeFiles/C_board_study.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

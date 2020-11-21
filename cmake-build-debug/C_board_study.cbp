@@ -127,6 +127,9 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/tim.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Inc/usart.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/adc.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -161,6 +164,9 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/tim.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Core/Src/usart.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
@@ -295,6 +301,9 @@
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="C_board_study.elf"/>
 		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="C_board_study.elf"/>
+		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
@@ -344,6 +353,9 @@
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="C_board_study.elf"/>
+		</Unit>
+		<Unit filename="D:/RM_Clion_project/C_board_study/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="C_board_study.elf"/>
 		</Unit>
 		<Unit filename="D:/RM_Clion_project/C_board_study/STM32F407IGHx_FLASH.ld">

@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * @file    gpio.h
+  * @file    usart.h
   * @brief   This file contains all the function prototypes for
-  *          the gpio.c file
+  *          the usart.c file
   ******************************************************************************
   * @attention
   *
@@ -17,8 +17,8 @@
   ******************************************************************************
   */
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __GPIO_H__
-#define __GPIO_H__
+#ifndef __USART_H__
+#define __USART_H__
 
 #ifdef __cplusplus
 extern "C" {
@@ -31,19 +31,24 @@ extern "C" {
 
 /* USER CODE END Includes */
 
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart6;
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
 
-void MX_GPIO_Init(void);
-extern void LED_Init(void);
-/* USER CODE BEGIN Prototypes */
+void MX_USART1_UART_Init(void);
+void MX_USART6_UART_Init(void);
 
+/* USER CODE BEGIN Prototypes */
+void USART_Init();
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus
 }
 #endif
-#endif /*__ GPIO_H__ */
+
+#endif /* __USART_H__ */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
